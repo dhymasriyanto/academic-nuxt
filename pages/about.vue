@@ -1,8 +1,11 @@
 <template>
   <div>
-    <h2>
+    <h1>
       {{ title }}
-    </h2>
+    </h1>
+    <p>
+      This app for manage academic things.
+    </p>
   </div>
 </template>
 
@@ -10,7 +13,7 @@
 export default {
   data () {
     return {
-      title: 'Home page'
+      title: 'About page'
     }
   },
   head () {
@@ -20,10 +23,14 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Home page'
+          content: 'About page'
         }
       ]
     }
   }
 }
 </script>
+
+<style>
+
+</style>
