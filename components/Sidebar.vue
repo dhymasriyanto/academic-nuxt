@@ -15,35 +15,28 @@
             <div class="btn-list">
               <a href="https://github.com/tabler/tabler" class="btn" target="_blank" rel="noreferrer">
                 <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
+                <brand-github />
                 Source code
               </a>
               <a href="https://github.com/sponsors/codecalm" class="btn" target="_blank" rel="noreferrer">
                 <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+                <heart-icon />
                 Sponsor
               </a>
             </div>
           </div>
           <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode" data-bs-toggle="tooltip" data-bs-placement="bottom">
             <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+            <moon-icon />
           </a>
           <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode" data-bs-toggle="tooltip" data-bs-placement="bottom">
-          <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
+            <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
+            <sun-icon />
           </a>
           <div class="nav-item dropdown d-none d-md-flex me-3">
             <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
               <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+              <bell-icon />
               <span class="badge bg-red" />
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdown-menu-card">
@@ -76,7 +69,9 @@
           <ul class="navbar-nav pt-lg-3">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">
-                <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                <span class="nav-link-icon d-md-none d-lg-inline-block">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                  <home-icon />
                 </span>
                 <span class="nav-link-title">
                   Home
@@ -93,7 +88,8 @@
                 aria-expanded="false"
               >
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                  <!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                  <package-icon />
                 </span>
                 <span class="nav-link-title">
                   Interface
@@ -218,7 +214,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./form-elements.html">
-                <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                <span class="nav-link-icon d-md-none d-lg-inline-block">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                  <checkbox-icon />
                 </span>
                 <span class="nav-link-title">
                   Forms
@@ -234,7 +232,9 @@
                 role="button"
                 aria-expanded="false"
               >
-                <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                <span class="nav-link-icon d-md-none d-lg-inline-block">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/star -->
+                  <star-icon />
                 </span>
                 <span class="nav-link-title">
                   Extra
@@ -282,7 +282,9 @@
                 role="button"
                 aria-expanded="true"
               >
-                <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/layout-2 -->
+                <span class="nav-link-icon d-md-none d-lg-inline-block">
+                  <!-- Download SVG icon from http://tabler-icons.io/i/layout-2 -->
+                  <layout-2-icon />
                 </span>
                 <span class="nav-link-title">
                   Layout
@@ -337,6 +339,7 @@
               <a class="nav-link" href="./docs/index.html">
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
                   <!-- Download SVG icon from http://tabler-icons.io/i/file-text -->
+                  <file-text-icon />
                 </span>
                 <span class="nav-link-title">
                   Documentation
@@ -356,49 +359,16 @@
         <div class="navbar-nav flex-row order-md-last">
           <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode" data-bs-toggle="tooltip" data-bs-placement="bottom">
             <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+            <moon-icon />
           </a>
           <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode" data-bs-toggle="tooltip" data-bs-placement="bottom">
             <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ><path stroke="none" d="M0 0h24v24H0z" fill="none" /><circle cx="12" cy="12" r="4" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
+            <sun-icon />
           </a>
           <div class="nav-item dropdown d-none d-md-flex me-3">
             <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
               <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>
+              <bell-icon />
               <span class="badge bg-red" />
             </a>
             <div class="dropdown-menu dropdown-menu-end dropdown-menu-card">
@@ -411,7 +381,7 @@
           </div>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-              <span class="avatar avatar-sm" style="background-image: url(./static/avatars/000m.jpg)" />
+              <span class="avatar avatar-sm" style="background-image: url(https://media.istockphoto.com/photos/learn-to-love-yourself-first-picture-id1291208214?b=1&k=20&m=1291208214&s=170667a&w=0&h=sAq9SonSuefj3d4WKy4KzJvUiLERXge9VgZO-oqKUOo=)" />
               <div class="d-none d-xl-block ps-2">
                 <div>Paweł Kuna</div>
                 <div class="mt-1 small text-muted">UI Designer</div>
@@ -433,18 +403,7 @@
               <div class="input-icon">
                 <span class="input-icon-addon">
                   <!-- Download SVG icon from http://tabler-icons.io/i/search -->
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="icon"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ><path stroke="none" d="M0 0h24v24H0z" fill="none" /><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
+                  <search-icon />
                 </span>
                 <input type="text" class="form-control" placeholder="Search…" aria-label="Search in website">
               </div>
