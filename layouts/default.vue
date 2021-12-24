@@ -1,19 +1,29 @@
 <template>
   <div class="wrapper">
-    <Sidebar />
+    <SideBar />
     <AppHeader />
+    <div class="page-wrapper">
+      <PageHeader />
+      <div class="page-body">
+        <PageBody />
+      </div>
+    </div>
     <Nuxt />
   </div>
 </template>
 
 <script>
 import AppHeader from '../components/AppHeader.vue'
-import Sidebar from '../components/Sidebar.vue'
+import SideBar from '../components/SideBar.vue'
+import PageHeader from '../components/PageHeader.vue'
+import PageBody from '../components/PageBody.vue'
 
 export default {
   components: {
     AppHeader,
-    Sidebar
+    SideBar,
+    PageHeader,
+    PageBody
   }
 }
 </script>

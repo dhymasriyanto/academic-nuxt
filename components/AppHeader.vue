@@ -31,14 +31,14 @@
           <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
             <span class="avatar avatar-sm" style="background-image: url(https://media.istockphoto.com/photos/learn-to-love-yourself-first-picture-id1291208214?b=1&k=20&m=1291208214&s=170667a&w=0&h=sAq9SonSuefj3d4WKy4KzJvUiLERXge9VgZO-oqKUOo=)" />
             <div class="d-none d-xl-block ps-2">
-              <div>Paweł Kuna</div>
-              <div class="mt-1 small text-muted">UI Designer</div>
+              <div>Ujang</div>
+              <div class="mt-1 small text-muted">Mahasiswa</div>
             </div>
           </a>
           <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-            <a href="#" class="dropdown-item">Profile & account</a>
+            <a href="#" class="dropdown-item">Profil & Akun</a>
             <div class="dropdown-divider" />
-            <a href="#" class="dropdown-item">Settings</a>
+            <a href="#" class="dropdown-item">Pengaturan</a>
             <a href="#" class="dropdown-item">Logout</a>
           </div>
         </div>

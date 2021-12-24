@@ -11,9 +11,22 @@ module.exports = {
   extends: [
     '@nuxtjs',
     'plugin:nuxt/recommended'
+    // 'plugin:vue/recommended'
+
   ],
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'vue/multi-word-component-names': ['error', {
+      ignores: ['default']
+    }]
+    // 'vue/no-reserved-props': ['error', {
+    // vueVersion: 2 // or 2
+    // }],
+    // 'vue/first-attribute-linebreak': ['error', {
+    // singleline: 'ignore',
+    // multiline: 'below'
+    // }]
+  }
 }
