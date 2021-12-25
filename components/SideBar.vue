@@ -7,7 +7,7 @@
       <h1 class="navbar-brand navbar-brand-autodark">
         <a href="">
           <!--ur image here-->
-          <!-- <img src="./static/logo-white.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image"> -->
+          <img src="../static/logo2.png" width="110" height="32" alt="Tabler" class="navbar-brand-image">
         </a>
       </h1>
       <div class="navbar-nav flex-row d-lg-none">
