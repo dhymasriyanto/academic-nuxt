@@ -34,7 +34,7 @@
           </div>
         </div> <div class="nav-item dropdown">
           <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
-            <span class="avatar avatar-sm" style="background-image: url(https://media.istockphoto.com/photos/learn-to-love-yourself-first-picture-id1291208214?b=1&k=20&m=1291208214&s=170667a&w=0&h=sAq9SonSuefj3d4WKy4KzJvUiLERXge9VgZO-oqKUOo=)" />
+            <span class="avatar avatar-sm" style="background-image: url(https://ui-avatars.com/api/?name=Ujang)" />
             <div class="d-none d-xl-block ps-2">
               <div>Ujang</div>
               <div class="mt-1 small text-muted">Mahasiswa</div>

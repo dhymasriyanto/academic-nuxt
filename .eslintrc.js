@@ -19,7 +19,11 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/multi-word-component-names': ['error', {
-      ignores: ['default']
+      ignores: [
+        'default',
+        'index',
+        'about'
+      ]
     }]
     // 'vue/no-reserved-props': ['error', {
     // vueVersion: 2 // or 2
