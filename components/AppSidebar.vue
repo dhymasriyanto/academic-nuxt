@@ -37,7 +37,7 @@
             <span class="avatar avatar-sm" style="background-image: url(https://ui-avatars.com/api/?name=Ujang)" />
             <div class="d-none d-xl-block ps-2">
               <div>Ujang</div>
-              <div class="mt-1 small text-muted">Mahasiswa</div>
+              <div class="mt-1 small text-muted">User</div>
             </div>
           </a>
           <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -96,10 +96,12 @@
 
 <script>
 export default {
-  name: 'SideBar'
+  name: 'AppSidebar'
 }
 </script>
 
 <style>
-
+.navbar-dark{
+     background: #008080ff
+}
 </style>
