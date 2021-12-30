@@ -24,7 +24,8 @@ module.exports = {
         'index',
         'about'
       ]
-    }]
+    }],
+    'no-console': 'off'
     // 'vue/no-reserved-props': ['error', {
     // vueVersion: 2 // or 2
     // }],

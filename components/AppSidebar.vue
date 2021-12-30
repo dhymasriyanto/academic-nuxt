@@ -108,7 +108,7 @@
             <div class="dropdown-menu">
               <div class="dropdown-menu-columns">
                 <div class="dropdown-menu-column">
-                  <NuxtLink class="dropdown-item" to="/students">
+                  <NuxtLink class="dropdown-item" to="/teachers">
                     Semua Data
                   </NuxtLink>
                 </div>

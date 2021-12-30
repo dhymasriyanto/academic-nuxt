@@ -3,6 +3,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   data () {
     return {
@@ -20,9 +22,23 @@ export default {
         }
       ]
     }
-  }
+  },
+  async created () {
+    const config = {
+      headers: {
+        Accept: 'application/json'
+      }
+    }
 
+    try {
+      const res = await axios.get('http://localhost:9001/students/', config)
+      console.log(res.data.data)
+    } catch (err) {
+      console.log(err)
+    }
+  }
 }
+
 </script>
 
 <style>
