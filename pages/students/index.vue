@@ -1,13 +1,26 @@
 <template>
-  <div>
-    <h2>
-      Students page.
-    </h2>
-  </div>
+  <div />
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+      title: 'Student page'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Student page'
+        }
+      ]
+    }
+  }
 
 }
 </script>

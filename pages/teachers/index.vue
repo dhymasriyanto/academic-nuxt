@@ -1,13 +1,26 @@
 <template>
-  <div>
-    <h2>
-      Teacher page.
-    </h2>
-  </div>
+  <div />
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+      title: 'Teacher page'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Teacher page'
+        }
+      ]
+    }
+  }
 
 }
 </script>

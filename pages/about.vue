@@ -1,12 +1,5 @@
 <template>
-  <div>
-    <h1>
-      {{ title }}
-    </h1>
-    <p>
-      This app for manage academic things.
-    </p>
-  </div>
+  <div />
 </template>
 
 <script>

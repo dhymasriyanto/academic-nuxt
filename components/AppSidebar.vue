@@ -51,7 +51,7 @@
       <div id="navbar-menu" class="collapse navbar-collapse">
         <ul class="navbar-nav pt-lg-3">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">
+            <NuxtLink class="nav-link" to="/">
               <span class="nav-link-icon d-md-none d-lg-inline-block">
                 <!-- Download SVG icon from http://tabler-icons.io/i/home -->
                 <home-icon />
@@ -59,7 +59,7 @@
               <span class="nav-link-title">
                 Beranda
               </span>
-            </a>
+            </NuxtLink>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -72,7 +72,7 @@
             >
               <span class="nav-link-icon d-md-none d-lg-inline-block">
                 <!-- Download SVG icon from http://tabler-icons.io/i/package -->
-                <package-icon />
+                <users-icon />
               </span>
               <span class="nav-link-title">
                 Siswa
@@ -81,9 +81,63 @@
             <div class="dropdown-menu">
               <div class="dropdown-menu-columns">
                 <div class="dropdown-menu-column">
-                  <a class="dropdown-item" href="./empty.html">
+                  <NuxtLink class="dropdown-item" to="/students">
                     Semua Data
-                  </a>
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#navbar-base"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="false"
+              role="button"
+              aria-expanded="false"
+            >
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                <users-icon />
+              </span>
+              <span class="nav-link-title">
+                Guru
+              </span>
+            </a>
+            <div class="dropdown-menu">
+              <div class="dropdown-menu-columns">
+                <div class="dropdown-menu-column">
+                  <NuxtLink class="dropdown-item" to="/students">
+                    Semua Data
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#navbar-base"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="false"
+              role="button"
+              aria-expanded="false"
+            >
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <!-- Download SVG icon from http://tabler-icons.io/i/package -->
+                <box-icon />
+              </span>
+              <span class="nav-link-title">
+                Kelas
+              </span>
+            </a>
+            <div class="dropdown-menu">
+              <div class="dropdown-menu-columns">
+                <div class="dropdown-menu-column">
+                  <NuxtLink class="dropdown-item" to="/students">
+                    Semua Data
+                  </NuxtLink>
                 </div>
               </div>
             </div>
