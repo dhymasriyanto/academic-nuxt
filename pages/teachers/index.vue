@@ -1,11 +1,13 @@
 <template>
-  <div />
+  <p>Teachers</p>
 </template>
 
 <script>
 import axios from 'axios'
 
 export default {
+  components: {
+  },
   data () {
     return {
       title: 'Teacher page'

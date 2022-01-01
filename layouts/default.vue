@@ -10,7 +10,7 @@
         </div>
         <PageFooter />
       </div>
-      <Nuxt />
+      <!--<Nuxt />-->
     </div>
   </body>
 </template>
